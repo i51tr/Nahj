@@ -118,17 +118,12 @@ h6 {
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #00366f;
-  
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   max-height: 55px;
-}
-#header .logo img{
-  max-width: 10px;
-  max-hight:10px;
 }
 
 
