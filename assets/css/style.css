@@ -117,7 +117,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: #00366f;
   
   text-decoration: none;
 }
@@ -127,7 +127,7 @@ h6 {
   max-height: 55px;
 }
 #header .logo img{
-  max-height: 1px;
+  max-width: 10px;
 }
 
 
