@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+padding: 0px;/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -1014,6 +1014,7 @@ img {
 #services ul{
   display: flex;
   justify-content: center;
+  padding: 0px;
 
 }
 
@@ -1022,6 +1023,7 @@ img {
   padding: 8px 20px;
   margin: 5px;
   cursor: pointer;
+  text-align: center;
 }
 #services ul li.active{
   background-color: #000000;
