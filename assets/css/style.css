@@ -123,6 +123,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
+  max-width: 46px;
   max-height: 46px;
 }
 
