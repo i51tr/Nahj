@@ -666,6 +666,13 @@ section {
 
 /* Services Section
 --------------------------------*/
+.popular-content{
+  display: none;
+}
+.popular-content:target{
+  display: block;
+
+}
 a {
   text-decoration: none;
 }
@@ -781,6 +788,12 @@ img {
 .heading-title {
   font-size: 1.2rem;
   font-weight: 500;
+  
+}
+.tabs .heading-title{
+  display: inline;
+  margin: 10px;
+  color: #333;
 }
 
 .movie-box {
