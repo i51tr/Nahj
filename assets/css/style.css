@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+padding: 0px;/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -795,7 +795,11 @@ img {
   margin: 10px;
   color: #333;
 }
-
+/* .tabs .heading-title a:active,
+.tabs .heading-title a:fo,
+.tabs .heading-title a:active{
+  color: #007bff;
+} */
 .movie-box {
   position: relative;
   width: 100%;
