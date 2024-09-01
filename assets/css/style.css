@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #007bff;
+  color: #3196d3;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -54,7 +54,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #3196d3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -181,7 +181,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #007bff;
+  color: #3196d3;
 }
 
 .navbar .dropdown ul {
@@ -216,7 +216,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #007bff;
+  color: #3196d3;
 }
 
 .navbar .dropdown:hover>ul {
@@ -315,7 +315,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #007bff;
+  color: #3196d3;
 }
 
 .navbar-mobile .dropdown ul {
@@ -345,7 +345,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #007bff;
+  color: #3196d3;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -446,8 +446,8 @@ h6 {
 }
 
 #hero .hero-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #3196d3;
+  border: 2px solid #3196d3;
   color: #fff;
 }
 
@@ -462,8 +462,8 @@ h6 {
 }
 
 #hero .hero-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #3196d3;
+  border-color: #3196d3;
   color: #fff;
 }
 
@@ -619,18 +619,18 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #3196d3;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #3196d3;
   font-size: 24px;
   line-height: 0;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #3196d3;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -745,13 +745,13 @@ img {
   align-items: center;
   column-gap: 0.8rem;
   color: #fff;
-  background-color: #007bff;
+  background-color: #3196d3;
 }
 
 .watch-btn .bx {
   margin-bottom: 9px;
   font-size: 21px;
-  background: #007bff;
+  background: #3196d3;
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -762,7 +762,7 @@ img {
 
 .play-movie .bx:hover {
   background: #fff;
-  color: #007bff;
+  color: #3196d3;
 }
 /* body {
   background: var(--body-color);
@@ -798,7 +798,7 @@ img {
 /* .tabs .heading-title a:active,
 .tabs .heading-title a:fo,
 .tabs .heading-title a:active{
-  color: #007bff;
+  color: #3196d3;
 } */
 .movie-box {
   position: relative;
@@ -944,7 +944,7 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #007bff;
+  background-color: #3196d3;
   border-radius: 50%;
   color: white;
   font-size: 24px;
@@ -962,7 +962,7 @@ img {
     
 .card__status {
   font-size: .8em;
-  color: #007bff;
+  color: #3196d3;
   /* margin-bottom: 100px; */
 }
 
@@ -1006,7 +1006,7 @@ img {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #3196d3;
 }
 
 #services .description {
@@ -1120,7 +1120,7 @@ img {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #007bff;
+    background-color: #3196d3;
     border-radius: 50%;
     color: white;
     font-size: 24px;
@@ -1319,7 +1319,7 @@ img {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #3196d3;
 }
 
 #contact .contact-about p {
@@ -1337,7 +1337,7 @@ img {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #3196d3;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1346,11 +1346,11 @@ img {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #3196d3;
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
+  background: #3196d3;
   color: #fff;
 }
 
@@ -1360,7 +1360,7 @@ img {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #3196d3;
   float: left;
   line-height: 0;
 }
@@ -1423,7 +1423,7 @@ img {
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus
 #contact .php-email-form select:focus {
-  border-color: #007bff;
+  border-color: #3196d3;
 }
 
 #contact .php-email-form input {
@@ -1436,7 +1436,7 @@ img {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #007bff;
+  background: #3196d3;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1466,7 +1466,7 @@ img {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background-color: #00428a;
+  background-color: #3196d3;
   padding: 70px 0;
   align-items: center;
 }
