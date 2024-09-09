@@ -46,12 +46,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">الصفحة الرئيسية</a></li>
-          <li><a class="nav-link scrollto" href="#about">من نحن؟</a></li>
-          <li><a class="nav-link scrollto" href="#services">خدماتنا</a></li>
+          <li><a class="nav-link scrollto" href="#contact">تواصل</a></li>
           <li><a class="nav-link scrollto" href="services/patented.html">براءة اختراع</a></li>
           <li><a class="nav-link scrollto" href="#team">فريقنا</a></li>
-          <li><a class="nav-link scrollto" href="#contact">تواصل</a></li>
+          <li><a class="nav-link scrollto" href="#activites">فعالياتنا</a></li>
+          <li><a class="nav-link scrollto" href="#services">خدماتنا</a></li>
+          <li><a class="nav-link scrollto" href="#about">من نحن؟</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">الصفحة الرئيسية</a></li>
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -180,12 +182,16 @@
             <div class="swiper-button-next"></div>
           </div>
           <div class="tabs">
-            <a href="#option1"><h2 class="heading-title" >الخبراء </h2></a>
-            <a href="#option2"><h2 class="heading-title">المرشدين </h2></a>
+            <a href="#option1" id="tab1" class="active">
+              <h2 class="heading-title">الخبراء</h2>
+            </a>
+            <a href="#option2" id="tab2">
+              <h2 class="heading-title">المرشدين</h2>
+            </a>
           </div>
           <!-- <h2 class="heading-title" style="margin-top: 10%; margin-bottom: 0%;">الخبراء </h2> -->
         </div>
-        <div class="popular-content swiper" id="option1">
+        <div class="popular-content swiper" id="option1" style="display: block;">
           <div class="swiper-wrapper">
             <!--Movies Box 1-->
             <div class="swiper-slide">
@@ -530,6 +536,70 @@
         </div>
       </div>
   </section>
+
+  <!-- ======= Team Section ======= -->
+  <section id="activites">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h3>فعالياتنا</h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+          <article class="activites-card">
+            <img class="activites-card__background" src="assets/img/activity1.png" width="1920" height="2193" />
+            <div class="activites-card__content | flow">
+              <div class="activites-card__content--container | flow">
+                <h2 class="activites-card__title">برنامج المستشار الأكاديمي</h2>
+                <p class="activites-card__description">
+                  للباحثين في بداية حياتهم المهنية فرصتك للتأكد من أصالة موضوع بحثك في مشاريع التخرج من خلال الاسشارات الاكاديمية مع
+                  مُثمــــر
+                </p>
+                <div class="row activites-details">
+                  <div class="col-sm-2 col-md-2 col-lg-2" data-aos="zoom-in">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>٤:٠٠ مساء</p>
+                  </div>
+                  <div class=" col-sm-2 col-md-2 col-lg-2 " data-aos="zoom-in">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>الأربعاء ، الخميس</p>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2 " data-aos="zoom-in">
+                    <i class="fa-solid fa-user"></i>
+                    <p>الاستشارة فردية</p>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2 " data-aos="zoom-in">
+                    <i class="fa-solid fa-list-ol"></i>
+                    <p>عدد محدود </p>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2 " data-aos="zoom-in">
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <p>
+                      مستشارين
+                      <br>
+                       مختصين</p>
+                  </div>
+                </div>
+              <!-- </div> -->
+              <a class="activites-card__button">سجل الان</a>
+            </div>
+          </article>
+        </div>
+
+          <!-- <div class="box">
+            <div class="activites-image"><img src="assets/img/activity1.png"/></div>
+            <h4 class="title"><a href="services/save-text-as.html">برنامج المستشار الأكاديمي</a></h4>
+            <p class="description">
+                  للباحثين في بداية حياتهم المهنية فرصتك للتأكد من أصالة موضوع بحثك في مشاريع التخرج من خلال الاسشارات الاكاديمية مع
+                  مُثمــــر
+            </p>
+          </div> -->
+        </div>
+
+    </div>
+  </section><!-- End Team Section -->
+  
+
+
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -550,15 +620,13 @@
   <!-- End Services Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team">
+    <section id="team" class="section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3>فريقنا</h3>
           <p>السعادة تزدهر من الداخل</p>
         </div>
-    
         <div class="row justify-content-center">
-    
           <div class="col-lg-2 col-md-6" data-aos="zoom-out" data-aos-delay="100">
             <div class="member">
               <img src="assets/img/Men.png" class="img-fluid" alt="">
@@ -695,7 +763,7 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="section-bg">
+    <section id="contact">
       <div class="container-fluid" data-aos="fade-up">
     
         <div class="section-header" style="align-items: center;">
@@ -787,6 +855,38 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/popular.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const tab1 = document.getElementById('tab1');
+      const tab2 = document.getElementById('tab2');
+      const option1 = document.getElementById('option1');
+      const option2 = document.getElementById('option2');
+
+      // Set default visibility
+      option1.style.display = 'block'; // Option 1 is visible by default
+      option2.style.display = 'none';  // Option 2 is hidden by default
+
+      // Event listener for Tab 1
+      tab1.addEventListener('click', function (event) {
+        event.preventDefault();
+        option1.style.display = 'block';  // Show Option 1
+        option2.style.display = 'none';   // Hide Option 2
+        tab1.classList.add('active');     // Set active class for Tab 1
+        tab2.classList.remove('active');  // Remove active class from Tab 2
+      });
+
+      // Event listener for Tab 2
+      tab2.addEventListener('click', function (event) {
+        event.preventDefault();
+        option1.style.display = 'none';   // Hide Option 1
+        option2.style.display = 'block';  // Show Option 2
+        tab2.classList.add('active');     // Set active class for Tab 2
+        tab1.classList.remove('active');  // Remove active class from Tab 1
+      });
+    });
+  </script>
+
 
 </body>
 
