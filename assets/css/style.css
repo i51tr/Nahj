@@ -1188,14 +1188,11 @@ img {
   justify-content: space-between;
   text-align: center;
   align-self: flex-end;
-  height: 60%;
+  height: 100%;
   color: #009540;
   font-weight: bolder;
   padding: 12% 1.25rem 1.875rem;
-  background: linear-gradient(180deg,
-      hsla(0, 0%, 100%, 0) 0%,
-      hsla(0, 0%, 100%, 0.731) 10%,
-      hsl(0, 0%, 100%) 100%);
+  background: #fff;
 }
 
 .activites-card__content--container {
