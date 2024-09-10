@@ -1102,7 +1102,115 @@ img {
 
 /* Activities Section
 --------------------------------*/
+#activites-bg {
+  width: 100%;
+  position: relative;
+  background: url("../img/activites.png") center bottom no-repeat;
+  background-size:cover;
+  padding: 0px ;
+}
 
+@media (max-width: 991px) {
+  #activites-bg {
+    padding: 140px 0 60px 0;
+  }
+}
+
+@media (max-width: 574px) {
+  #activites-bg {
+    padding: 100px 0 20px 0;
+  }
+}
+
+#activites-bg .activites-img {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  #activites-bg .activites-img {
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
+  }
+}
+
+#activites-bg .activites-info {
+  width: 50%;
+  float: right;
+  margin-top: 15%;
+  /* display: block; */
+}
+
+@media (max-width: 991px) {
+  #activites-bg .activites-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #activites-bg .activites-info {
+    width: 100%;
+  }
+}
+
+#activites-bg .activites-info h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 31px;
+  font-weight: 700;
+}
+
+#activites-bg .activites-info h2 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #activites-bg .activites-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+#activites-bg .activites-info .btn-get-started,
+#activites-bg .activites-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#activites-bg .activites-info .btn-get-started {
+  background: #3196d3;
+  border: 2px solid #3196d3;
+  color: #fff;
+}
+
+#activites-bg .activites-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#activites-bg .activites-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#activites-bg .activites-info .btn-services:hover {
+  background: #3196d3;
+  border-color: #3196d3;
+  color: #fff;
+}
 /* #activites .detail1, .detail2,.detail3,.detail4,.detail5{
 
   margin: 5px;
@@ -1117,27 +1225,31 @@ img {
   display: block;
   margin-bottom: 5px;
   font-size: 24px;
-  background: linear-gradient(45deg, #0073e6, #009540);
+  /* background: linear-gradient(45deg, #009540, #aec90b);
     -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    background-clip: text; */
+    color: #fff;
 }
 .activites-details {
+  padding: 5px 0px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   text-align: center;
   margin-bottom: 30px;
+  background: linear-gradient(90deg, #004aad, #5de0e6);
+
+  border-radius: 50px;
 
 }
 .activites-details p{
   display: inline-block;
     font-size: 16px;
-    background: linear-gradient(135deg,#0073e6 , #009540);
-    -webkit-background-clip: text;
+    color:#fff ;
+    /* -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: transparent; */
     margin: 0;
     line-height: 1.2;
     padding: 0;
@@ -1202,6 +1314,7 @@ img {
 .activites-card__title {
   position: relative;
   color:#1f5ba4;
+  font-weight: bold;
   /* width: fit-content; */
   width: -moz-fit-content;
   /* Prefijo necesario para Firefox  */
@@ -1217,95 +1330,32 @@ img {
   background-color: var(--brand-color);
 }
 
+
 .activites-card__button {
   padding: 10px 10px;
-  /* padding-top: 100px; */
-  
-  /* width: fit-content; */
   width: -moz-fit-content;
-  /* Prefijo necesario para Firefox  */
   font-variant: small-caps;
   font-weight: bold;
   border-radius: 0.45em;
   border: none;
-  /* font-family: var(--font-title); */
   font-size: 1.125rem;
-  color: #ffffff;
-  background-color: #aec90b;
+  color: #009540;
+  background-color: #fff;
+  width: 100px;
+  text-align: center;
+  text-decoration: underline;
 }
-.activites-card__button:hover{
-      /* background: linear-gradient(90deg in oklab, #aec90b, #fff); */
 
-      color: #fff;
+.activites-card__button:hover {
+  /* background: linear-gradient(90deg in oklab, #aec90b, #fff); */
+
+  color: #00000061;
+  text-decoration: underline;
 }
+
 .activites-card__button:focus {
   outline: 2px solid black;
   outline-offset: -5px;
-}
-
-@media (any-hover: hover) and (any-pointer: fine) {
-  .activites-card__content {
-    transform: translateY(62%);
-    transition: transform 500ms ease-out;
-    transition-delay: 500ms;
-  }
-
-  .activites-card__title::after {
-    opacity: 0;
-    transform: scaleX(0);
-    transition: opacity 1000ms ease-in, transform 500ms ease-out;
-    transition-delay: 500ms;
-    transform-origin: right;
-  }
-
-  .activites-card__background {
-    transition: transform 500ms ease-in;
-  }
-
-  .activites-card__content--container> :not(.activites-card__title),
-  .activites-card__button {
-    opacity: 0;
-    transition: transform 500ms ease-out, opacity 500ms ease-out;
-  }
-
-  .activites-card:hover,
-  .activites-card:focus-within {
-    transform: scale(1.05);
-    transition: transform 500ms ease-in;
-  }
-
-  .activites-card:hover .activites-card__content,
-  .activites-card:focus-within .activites-card__content {
-    transform: translateY(0);
-    transition: transform 500ms ease-in;
-  }
-
-  .activites-card:focus-within .activites-card__content {
-    transition-duration: 0ms;
-  }
-
-  .activites-card:hover .activites-card__background,
-  .activites-card:focus-within .activites-card__background {
-    transform: scale(1.3);
-  }
-
-  .activites-card:hover .activites-card__content--container> :not(.activites-card__title),
-  .activites-card:hover .activites-card__button,
-  .activites-card:focus-within .activites-card__content--container> :not(.activites-card__title),
-  .activites-card:focus-within .activites-card__button {
-    opacity: 1;
-    transition: opacity 500ms ease-in;
-    transition-delay: 1000ms;
-  }
-
-  .activites-card:hover .activites-card__title::after,
-  .activites-card:focus-within .activites-card__title::after {
-    opacity: 1;
-    transform: scaleX(1);
-    transform-origin: left;
-    transition: opacity 500ms ease-in, transform 500ms ease-in;
-    transition-delay: 500ms;
-  }
 }
 /*-----------------------------------------------------------------------------------------------------*/
 
