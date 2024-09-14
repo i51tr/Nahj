@@ -1002,7 +1002,7 @@ img {
 #services #DL,
 #services .DL-list {
   background-color: #339fe0;
-  color: #000000;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -1012,7 +1012,7 @@ img {
 #services #Eng,
 #services .Eng-list {
   background-color: #b0cb0b;
-  color: #000000;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -1022,7 +1022,7 @@ img {
 #services #AI,
 #services .AI-list {
   background-color: #1f5eab;
-  color: #000000;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -1032,7 +1032,7 @@ img {
 #services #IoT,
 #services .IoT-list {
   background-color: #01a145;
-  color: #000000;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
@@ -1041,7 +1041,7 @@ img {
 
 #services .all-list {
   background-color: #958f947a;
-  color: #000000;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
