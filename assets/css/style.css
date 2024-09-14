@@ -1001,7 +1001,7 @@ img {
 
 #services #DL,
 #services .DL-list {
-  background-color: #bfddfe;
+  background-color: #339fe0;
   color: #000000;
   padding-left: 10px;
   padding-right: 10px;
@@ -1011,7 +1011,7 @@ img {
 
 #services #Eng,
 #services .Eng-list {
-  background-color: #f3febf;
+  background-color: #b0cb0b;
   color: #000000;
   padding-left: 10px;
   padding-right: 10px;
@@ -1021,7 +1021,7 @@ img {
 
 #services #AI,
 #services .AI-list {
-  background-color: #febff5;
+  background-color: #1f5eab;
   color: #000000;
   padding-left: 10px;
   padding-right: 10px;
@@ -1031,7 +1031,7 @@ img {
 
 #services #IoT,
 #services .IoT-list {
-  background-color: #bffec8;
+  background-color: #01a145;
   color: #000000;
   padding-left: 10px;
   padding-right: 10px;
